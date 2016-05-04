@@ -3,8 +3,8 @@
 dircolors_checked=false
 DIRCOLORS_DIR="$(echo ~/.dir_colors)"
 DIRCOLORS_SOLARIZED="$(pwd)"
-DIRCOLORS_REPO_ADRESS="https://github.com/seebi/dircolors-solarized"
-DIRCOLORS_DL_ADRESS="https://raw.github.com/seebi/dircolors-solarized/master/"
+DIRCOLORS_REPO_ADRESS="https://github.com/johnlcox/dircolors-solarized"
+DIRCOLORS_DL_ADRESS="https://raw.github.com/johnlcox/dircolors-solarized/master/"
 
 dl_dircolors() {
   echo
@@ -92,4 +92,3 @@ warning_message_dircolors() {
   echo -en "If there is any problem with the colors when doing a \"ls\", "
   echo -en "please check your dircolors.\n"
 }
-
